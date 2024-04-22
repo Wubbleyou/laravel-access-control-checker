@@ -14,12 +14,5 @@
             "homepage": "https://wubbleyou.co.uk"
         }
     ],
-    "require": {},
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Wubbleyou\\AccessControlChecker\\Providers\\ACCServiceProvider"
-            ]
-        }
-    }
+    "require": {}
 }
