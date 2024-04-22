@@ -18,7 +18,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Wubbleyou\\Boundaries\\Providers\\ACCServiceProvider"
+                "Wubbleyou\\AccessControlChecker\\Providers\\ACCServiceProvider"
             ]
         }
     }
