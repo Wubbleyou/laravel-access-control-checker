@@ -1,0 +1,16 @@
+<?php
+
+namespace App\ACCRules;
+
+use Wubbleyou\AccessControlChecker\ACCRules\ACCRule;
+use Illuminate\Routing\Route;
+use Tests\TestCase;
+
+class $CLASS_NAME$ extends ACCRule {
+    public string $name = "$CLASS_NAME$";
+
+    public function handle(Route $route, TestCase $test, string $routeName): array
+    {
+        return [];
+    }
+}
