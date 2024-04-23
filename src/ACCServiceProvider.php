@@ -1,6 +1,6 @@
 <?php
 
-namespace Wubbleyou\AccessControlChecker\Providers;
+namespace Wubbleyou\AccessControlChecker;
 
 use Wubbleyou\AccessControlChecker\Console\Commands\GenerateTest;
 use Wubbleyou\AccessControlChecker\Console\Commands\GenerateRule;

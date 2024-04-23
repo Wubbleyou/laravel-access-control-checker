@@ -1,6 +1,6 @@
 <?php
 
-namespace Wubbleyou\AccessControlChecker\ACCRules;
+namespace Wubbleyou\AccessControlChecker\Rules;
 
 use Illuminate\Routing\Route;
 use Tests\TestCase;
