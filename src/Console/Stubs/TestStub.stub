@@ -1,0 +1,10 @@
+<?php
+
+namespace $NAMESPACE$;
+
+use Wubbleyou\AccessControlChecker\Tests\$EXTENDS_NAME$;
+use App\Traits\ACCRouteTrait;
+
+class $CLASS_NAME$ extends $EXTENDS_NAME$ {
+    use ACCRouteTrait;
+}
