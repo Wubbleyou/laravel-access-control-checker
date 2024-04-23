@@ -2,7 +2,7 @@
 
 namespace App\ACCRules;
 
-use Wubbleyou\AccessControlChecker\ACCRules\ACCRule;
+use Wubbleyou\AccessControlChecker\Rules\ACCRule;
 use Illuminate\Routing\Route;
 use Tests\TestCase;
 

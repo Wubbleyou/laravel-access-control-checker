@@ -1,11 +1,11 @@
 <?php
 
-namespace Wubbleyou\AccessControlChecker\Tests;
+namespace Wubbleyou\AccessControlChecker;
 
 use Tests\TestCase;
 
 use Wubbleyou\AccessControlChecker\Helpers\RouteListGeneration;
-use Wubbleyou\AccessControlChecker\ACCRules\ACCRule;
+use Wubbleyou\AccessControlChecker\Rules\ACCRule;
 use Illuminate\Support\Facades\Route;
 
 class BaseACCTest extends TestCase
