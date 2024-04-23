@@ -17,6 +17,10 @@ class ACCServiceProvider extends ServiceProvider {
     public function boot()
     {
         if ($this->app->runningInConsole()) {
+            $this->publishes([
+                __DIR__.'/../config/acc.php' => config_path('wubbleyou/acc.php'),
+            ], 'acc-config');
+
             $this->commands([
                 GenerateRouteTrait::class,
                 GenerateTest::class,
